@@ -5,7 +5,7 @@ body {
   font-style: normal;
   color: #1b1a1a;
   background-color: #ffffff;
-
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -115,4 +115,36 @@ ul {
 .welcome .container {
 }
 .btn1 {
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
+  width: 770px;
+  padding-top: 100px;
+}
+.ourFirm {
+  font-size: 36px;
+}
+.about-list {
+  width: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #403e3b;
+}
+.about-ceo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboout-ceo-name {
+  font-size: 17px;
+  color: #1b1a1a;
+}
+.aboout-ceo-desc {
+  font-size: 14px;
+  color: #645c55;
 }
